@@ -1,32 +1,37 @@
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
+
 typeof( 15 );
+// It will return "number' because it checks what the type of data you entered is.
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( "hello" );
+// It will return "string" because the type of hello is a string.
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( [ "dog", "cat", "horse" ] );
+// It will return object.
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( NaN );
+//It will return "number".
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 "hamburger" + "s";
+//It will return "hamburgers". You can only add string together.
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 "hamburgers" - "s";
+//It will return "NaN" because you can't used other math operators on strings except addition.
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 "johnny" + 5;
+//It will return "johnny5" because it converts the 5 into a string and adds them together.
 
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 99 * "luftbaloons";
+//NaN will return because you can't multiply strings and numbers.
 
-// What will the contents of the below array be after the below code sample is executed.
 var numbers = [ 2, 4, 6, 8 ];
 numbers.pop();
+//Removes the last of an array, and returns that element.
+
 numbers.push( 10 );
+//It will add 10 into the array
+
 numbers.unshift( 3 );
+//adds new items to the beginning of an array, and returns the new length.
 
 // What is the return value of the below code sample?
 var morse = [ "dot", "pause", "dot" ];
